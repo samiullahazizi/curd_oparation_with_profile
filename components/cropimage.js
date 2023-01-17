@@ -12,7 +12,6 @@ export function getRadianAngle(degreeValue) {
 }
 
 /**
- * Returns the new bounding area of a rotated rectangle.
  */
 export function rotateSize(width, height, rotation) {
   const rotRad = getRadianAngle(rotation)

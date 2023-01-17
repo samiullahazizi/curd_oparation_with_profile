@@ -107,9 +107,6 @@ function Index() {
                     </a>
                 </div>
             </div>
-            {/* <div className='text-red-500'>
-          aklsdfj sadf
-        </div> */}
             <div>
                 <div className="relative overflow-x-auto shadow-sm sm:rounded-lg p-5">
                     <table className="w-full border-collapse bg-white text-left text-sm text-gray-500 overflow-scroll" >

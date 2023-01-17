@@ -40,7 +40,6 @@ class Request {
         const headers = {
             Accept: 'application/json',
             'Content-Type': 'multipart/form-data',
-            // 'Content-type': 'application/json; charset=UTF-8',
         };
         var data_for_post;
         if (isfile == false) {
@@ -54,7 +53,6 @@ class Request {
             setResult()
             isExcuted = true
             setResult(response.data)
-            // console.table(response.data)
             return response.data;
         }).catch(function (error) {
             isExcuted = true
@@ -91,7 +89,6 @@ class Request {
             if (!isExcuted) {
                 setResult()
             }
-            // always executed
         });
     }
 }
