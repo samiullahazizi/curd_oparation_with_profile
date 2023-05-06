@@ -19,7 +19,7 @@
     "react-dom": "18.2.0",
     "react-easy-crop": "^4.6.3",
     "react-loading": "^2.0.3",
-    "yup": "^0.32.11"
+    "yup": "^0.32.11" 
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
