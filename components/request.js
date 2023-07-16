@@ -1,5 +1,6 @@
 import axios from "axios";
 const API_URL = "https://career.afganturkmaarif.org/test2/api/";
+//every thing is only for test not elese
 class Request {
     make_request_get(url, setResult) {
 
